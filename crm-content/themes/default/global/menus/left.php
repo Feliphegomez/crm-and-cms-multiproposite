@@ -142,21 +142,22 @@ if($this->userActive() === true){ ?>
 		<a data-toggle="tooltip" data-placement="top" title="Mi Cuenta" href="<?php echo $this->linkUrl('Usuarios', 'mi_perfil'); ?>">
 			<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 		</a>
+		<!-- //
 		<a data-toggle="tooltip" data-placement="top" title="Ayuda y Soporte" href="https://help.monteverdeltda.com" target="_blank">
 			<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
-		</a>
+		</a>-->
 		<a data-toggle="tooltip" data-placement="top" title="Salir" href="#">
 			<form method="POST" action="/logout">
 				<button style="background-color: transparent;border: 0px;" type="submit"><span class="glyphicon glyphicon-off" aria-hidden="true"></span></button>
 			</form>
 		</a>
-	<!-- //
-	  <a data-toggle="tooltip" data-placement="top" title="Lock">
-		<span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
-	  </a>
-	  -->
+		
+		<!-- //
+			<a data-toggle="tooltip" data-placement="top" title="Lock">
+				<span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+			</a>
+		-->
 	</div>
-	<!-- /menu footer buttons -->
 <?php } else { ?>
 <style>
 	.right_col {

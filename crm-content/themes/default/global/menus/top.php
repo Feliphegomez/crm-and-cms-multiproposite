@@ -20,7 +20,6 @@
 						</a>
 					</li>
 					-->
-					<li><a target="_blank" href="https://help.monteverdeltda.com">Ayuda y Soporte</a></li>
 					<li>
 						<a data-toggle="tooltip" data-placement="top" title="Salir">
 							<form method="POST" action="/logout">
